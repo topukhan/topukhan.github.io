@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tofayel Ahmed Topu - Personal Portfolio</title>
+    <link rel="icon" href="images/favicon.jpeg" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#home" class="logo">Tofayel Ahmed
+            <span>Topu</span></a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <!-- <a href="#home" class="active">Home</a> -->
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#services">Services</a>
+            <a href="#certifications">Certification</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HOME -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's <span>Topu</span></h1>
+            <h3 class="text-animation">I'm a <span></span></h3>
+            <p>A tech enthusiast who loves building intuitive digital experiences. With experience in both frontend and backend development, my real passion is crafting engaging interfaces and delivering high-quality software.</p>
+
+
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/topukhan/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/topukhan" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://t.me/topukhan63" target="_blank" rel="noopener noreferrer"><i
+                        class='bx bxl-telegram'></i></a>
+                <!-- <a href="#"><i class='bx bxl-twitter'></i></a> -->
+            </div>
+
+            <div class="btn-group">
+                <!-- <a href="mailto:topukhan6364@gmail.com" target="_blank" class="google btn">Hire</a> -->
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="images/image0.jpeg" alt="profile image">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+
+        <div class="about-img">
+            <img src="images/image0.jpeg" alt="">
+        </div>
+        <div class="about-content">
+            <h2>About <span>Me.</span></h2>
+            <p> Assalamu alaikum.</p>
+            <p> I’m Tofayel Ahmed Topu, and I love creating seamless digital experiences. I dive into everything from frontend development to bringing ideas into full production, ensuring that every detail is polished and functional. For me, it’s all about turning concepts into interactive experiences that people love to use.</p>
+            <a href="./doc/Tofayel_Ahmed_Topu_Resume.pdf" target="_blank" class="btn" download="TofayelAhmmadTopuResume.pdf"><i class='bx bx-cloud-download'></i>Resume</a>
+
+        </div>
+    </section>
+
+    <!-- SKILLS  -->
+    <section class="skills" id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul class="skill-type">
+            <li class="skills-list-type btn skill-filter" id="all">All</li>
+            <li class="skills-list-type btn skill-filter" id="programming-languages">Programming Languages</li>
+            <li class="skills-list-type btn skill-filter" id="framework">Framework</li>
+            <li class="skills-list-type btn skill-filter" id="tools">Tools</li>
+        </ul>
+        <ul class="skills-list">
+            <li class="skills-list-item btn skill" data-type="programming-languages">PHP<i class='bx bxl-php'></i></li>
+            <li class="skills-list-item btn skill" data-type="programming-languages">Python<i class='bx bxl-python'></i></li>
+            <li class="skills-list-item btn skill" data-type="programming-languages">SQL<i class='bx bxl-postgresql'></i></li>
+            <li class="skills-list-item btn skill" data-type="programming-languages">Javascript<i class='bx bxl-javascript'></i></li>
+            <li class="skills-list-item btn skill" data-type="programming-languages">HTML <i class='bx bxl-html5'></i></li>
+            <li class="skills-list-item btn skill" data-type="programming-languages">CSS<i class='bx bxl-css3'></i></li>
+
+            <li class="skills-list-item btn skill" data-type="framework">Laravel</li>
+            <li class="skills-list-item btn skill" data-type="framework">Tailwind<i class='bx bxl-tailwind-css'></i>
+            <li class="skills-list-item btn skill" data-type="framework">Bootstrap<i class='bx bxl-bootstrap'></i></li>
+            <li class="skills-list-item btn skill" data-type="framework">Vue<i class='bx bxl-vuejs'></i></li>
+            <li class="skills-list-item btn skill" data-type="framework">React<i class='bx bxl-react'></i></li>
+            </li>
+            <li class="skills-list-item btn skill" data-type="tools">Git<i class='bx bxl-git'></i></li>
+            <li class="skills-list-item btn skill" data-type="tools">GitHub<i class='bx bxl-github'></i></li>
+            <li class="skills-list-item btn skill" data-type="tools">Click Up</li>
+            <li class="skills-list-item btn skill" data-type="tools">MySQL</li>
+            <li class="skills-list-item btn skill" data-type="tools">Postman</li>
+            <li class="skills-list-item btn skill" data-type="tools">Figma<i class='bx bxl-figma'></i></li>
+        </ul>
+    </section>
+
+    <section class="projects" id="projects">
+
+        <h2 class="heading">Projects</h2>
+
+        <div class="projects-box">
+
+            <div class="project-card">
+                <img src="images/projects/pams2.png" alt="pams">
+                <h3>PAMS</h3>
+                <p>Project Allocation and Management System</p>
+                <ul class="project-stack">
+                    <li class="project-stack-item">Laravel</li>
+                    <li class="project-stack-item">Tailwind</li>
+                    <li class="project-stack-item">MySQL</li>
+                </ul>
+                <div class="social-icons">
+                    <a href="https://github.com/topukhan/pams" target="_blank">
+                        <i class='bx bx-link-external'></i>
+                    </a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="images/projects/fashionable.png" alt="to-do">
+                <h3>Fashionable</h3>
+                <p>An online retail offers a wide variety of clothing and accessories, from trendy dresses to traditional Borkha, for those seeking stylish options in Bangladesh</p>
+                <ul class="project-stack">
+                    <li class="project-stack-item">Laravel</li>
+                    <li class="project-stack-item">Bootstrap</li>
+                    <li class="project-stack-item">Javascript</li>
+                </ul>
+                <div class="social-icons">
+                    <a href="https://fashionable.com.bd/" target="_blank">
+                        <i class='bx bx-link-external'></i>
+                    </a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="images/projects/fastPowerTech.png" alt="">
+                <h3>Fast Power Tech</h3>
+                <p>"Fast Power Tech delivers sustainable, cost-effective energy solutions, specializing in lead-acid batteries, IPS-UPS, solar technology, and green energy systems for homes and offices."</p>
+                <ul class="project-stack">
+                    <li class="project-stack-item">Laravel</li>
+                    <li class="project-stack-item">Bootstrap</li>
+                    <li class="project-stack-item">MySQL</li>
+                    <li class="project-stack-item">JS</li>
+                </ul>
+                <div class="social-icons">
+                    <a href="https://fastpowertech.com" target="_blank">
+                        <i class='bx bx-link-external'></i>
+                    </a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="images/projects/iconicStyle.png" alt="">
+                <h3>Iconic Style</h3>
+                <p>An online boutique offering a curated range of traditional and contemporary women's clothing, including sarees, dresses with a focus on unique batik and embroidered designs.</p>
+                <ul class="project-stack">
+                    <li class="project-stack-item">Laravel</li>
+                    <li class="project-stack-item">Bootstrap</li>
+                    <li class="project-stack-item">MySQL</li>
+                    <li class="project-stack-item">JS</li>
+                </ul>
+                <div class="social-icons">
+                    <a href="https://iconicstylebd.com/" target="_blank">
+                        <i class='bx bx-link-external'></i>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+        <div class="btn more-projects">
+            <a target="_blank" href="https://github.com/topukhan?tab=repositories">more projects</a>
+        </div>
+
+    </section>
+
+    <section class="services">
+        <h2 class="heading">Services</h2>
+
+        <div class="services-container">
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bx-code"></i>
+                    <h4>Custom Web Applications</h4>
+                    <p>Build robust and scalable web applications using Laravel, tailored to meet specific business needs</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <i class='bx bxs-business'></i>
+                    <h4>E-commerce Solutions</h4>
+                    <p>
+                        Create dynamic e-commerce platforms with advanced features like payment integration, order management, and analytics.
+                    </p>
+                    <p>Manual & Automation</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bxs-bug"></i>
+                    <h4>Bug Fixes & Optimization</h4>
+                    <p>Provide debugging, troubleshooting, and performance optimization for Laravel applications.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- EDUCATION -->
+    <section class="education" id="education">
+        <h2 class="heading">Education</h2>
+
+        <div class="timeline-items">
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2023</div>
+                <div class="timeline-content">
+                    <!-- <div class="education-logo">
+                        <img src="images/uu.png" alt="logo">
+                    </div> -->
+                    <div class="education-info">
+                        <h3>BSc in Computer Science & Engineering</h3>
+                        <p>Uttara University</p>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2019</div>
+                <div class="timeline-content">
+                    <!-- <div class="education-logo">
+                        <img src="images/rumc.png" alt="logo">
+                    </div> -->
+                    <div class="education-info">
+                        <h3>Higher Secondary Certificate (HSC)</h3>
+                        <p>Gouripur Govt College</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">
+                    2017</div>
+                <div class="timeline-content">
+                    <!-- <div class="education-logo">
+                        <img src="images/ms&c.png" alt="logo">
+                    </div> -->
+                    <div class="education-info">
+                        <h3>Secondary School Certificate (SSC)</h3>
+                        <p>Zias khan School & College</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me.</span></h2>
+        <ul class="contact-info">
+            <li><i class='bx bx-envelope'></i>
+                <span id="email" onclick="copyEmail()">topukhan735@gmail.com</span>
+            </li>
+        </ul>
+
+
+        <form id="contact-form">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" name="full_name" placeholder="Full Name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="input-box">
+                    <input type="number" name="phone_number" placeholder="Phone Number">
+                    <input type="text" name="subject" placeholder="Subject" required>
+                </div>
+            </div>
+
+            <div class="input-group-2">
+                <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+        </form>
+
+
+    </section>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/topukhan/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/topukhan" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="https://t.me/topukhan63" target="_blank" rel="noopener noreferrer"><i
+                    class='bx bxl-telegram'></i></a>
+            <a href="https://www.youtube.com/@topukhandev" target="_blank" rel="noopener noreferrer"><i
+                    class='bx bxl-youtube'></i></a>
+        </div>
+        <ul class="list">
+            <li>
+                <a href="#about">About Me</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#sevices">Services</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#certification">Certifications</a>
+            </li>
+
+        </ul>
+        <p class="created-by">
+            Created By <span><a href="https://www.linkedin.com/in/topukhan/" target="_blank">Topu Khan
+                </a></span>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+
+
+</body>
+
+</html>
